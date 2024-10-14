@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>The Best Place for MovieLovers. | MovieRant.com</title>
+    <title>The Best Place for MovieLovers. | DreamReel.com</title>
     <link rel="stylesheet" type="text/css" href="CSS/myStyle.css" >
     <link sizes="16x16" rel="icon" href="images/camera_icon.ico">
 </head>
 <body>
 <div id="site_logo_container">
     <img id="welcome_logo" src="images\site_logo.jpg" alt="site_logo" width="60px" height="60px">
-    <p id="welcome_note">MovieRant.com</p>
+    <p id="welcome_note">DreamReel.com</p>
 </div>
 <div class="topnav">
     <a href="home.html">Αρχική</a>
