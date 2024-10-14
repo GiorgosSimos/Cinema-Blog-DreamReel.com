@@ -1,0 +1,206 @@
+#site_logo_container {
+    align-items: center;
+    display: flex;
+}
+
+#welcome_logo {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+#welcome_note {
+    flex: 1;
+}
+
+.topnav {
+    background-color: #333;
+    text-align: center;
+    overflow: hidden;
+    width: fit-content;
+    margin: auto;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: purple;
+    color: white;
+}
+
+img {display: block; border-radius: 30%}
+
+body {
+    background: linear-gradient(0.25turn, #52ACFF, #FFE32C, #FF9A8B) ;
+    font-family: Tahoma, serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+}
+
+.table_form {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: sandybrown;
+}
+
+.table_form > * > tr > * {
+    border: transparent;
+}
+
+td {
+    border: 3px solid black;
+}
+
+#Films {
+    text-align: center;
+    border: 5px solid darkgreen;
+    width: 50%;
+}
+
+#directors {
+    text-align: center;
+    border: 5px solid goldenrod;
+    width: 50%;
+}
+
+#frame1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+
+#my_map {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+
+#bio_section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#newsreel {
+    font-family: "Monotype Corsiva";
+    font-size: 20pt;
+    letter-spacing: 1.5pt;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sliding-text {
+    position: relative;
+    white-space: nowrap;
+    animation: slide 12s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%); /* Start at the left edge */
+    }
+    100% {
+        transform: translateX(100%); /* End at the right edge */
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+form {
+    font-family: "Verdana";
+    font-size: large;
+    letter-spacing: 1px;
+    display: flex;
+    border-spacing:5px;
+    justify-content: center;
+    margin: 40px 50px;
+    padding: 30px;
+}
+
+label , input {
+    display: table-cell;
+}
+
+#submit_button {
+    transition-duration: 0.4s;
+}
+
+#submit_button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#reset_button {
+    transition-duration: 0.4s;
+}
+
+#reset_button:hover {
+    background-color: crimson;
+    color: white;
+}
+
+#print_button {
+    transition-duration: 0.4s;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+#print_button:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+#search_button {
+    transition-duration: 0.4s;
+    text-align: center;
+    display: flex;
+}
+
+#search_button:hover {
+    background-color: blue;
+    color: white;
+}
+
+#reg_request {
+    text-align: center;
+    font-family: "Georgia Pro Cond Semibold";
+    font-size: larger;
+}
+
+#card_num, #card_type {
+    display: block;
+}
+
+@media print {
+    #card_num, #card_type {
+        display: none;
+    }
+    body{
+        color-adjust: exact;
+        filter: grayscale(100%);
+    }
+}
