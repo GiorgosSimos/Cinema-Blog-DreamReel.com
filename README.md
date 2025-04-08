@@ -49,4 +49,7 @@ define("DB_BASE", "dreamReel");
 
 ## 🎞️ Cinema Aficionados!
 
-This project is a personal tribute to cinema and an exploration of full-stack fundamentals. While the structure is static and hardcoded in places, it serves as a stepping stone toward more dynamic content delivery in future iterations. It is meant to become an online blog for cinema aficionados, exploring the profound impact of the Seventh Art on the depths of the human psyche.
+This project is a personal tribute to cinema and an exploration of full-stack fundamentals.
+While the content structure is largely static and hardcoded for now, it lays the foundation for more dynamic content delivery in future iterations.
+
+✨ It aspires to become an online hub for cinema aficionados, exploring the profound emotional impact of the Seventh Art on the human soul.
