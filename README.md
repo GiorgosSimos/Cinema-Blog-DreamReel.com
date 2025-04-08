@@ -53,3 +53,11 @@ This project is a personal tribute to cinema and an exploration of full-stack fu
 While the content structure is largely static and hardcoded for now, it lays the foundation for more dynamic content delivery in future iterations.
 
 ✨ It aspires to become an online hub for cinema aficionados, exploring the profound emotional impact of the Seventh Art on the human soul.
+
+## Preview
+
+- Screenshot of Top Films Page
+![Screenshot of Top Films Page](images/screenShot1.png)
+
+- Screenshot of Sign Up page
+![Screenshot of Sign Up page](images/screenShot2.png)
