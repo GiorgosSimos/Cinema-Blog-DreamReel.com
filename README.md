@@ -56,8 +56,8 @@ While the content structure is largely static and hardcoded for now, it lays the
 
 ## Preview
 
-- Screenshot of Top Films Page
+### Top Films Page
 ![Screenshot of Top Films Page](images/screenShot1.png)
 
-- Screenshot of Sign Up page
+### Registration Form
 ![Screenshot of Sign Up page](images/screenShot2.png)
